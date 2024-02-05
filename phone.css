@@ -1,0 +1,85 @@
+@media screen and (max-width: 599px)  {
+    body {
+        background-color: black; 
+     }
+     .bg-img {
+         background-image: url(image/netflix1.jpg);
+         width: 100%;
+         background-position: center;
+         background-size: cover;
+     }
+     .banner {
+         background-color: rgb(0 0 0 / 60%);
+         width: 100%;
+         height: 75%;
+     }
+     .sign-up {
+         background-color: rgb(229,9,20);
+         
+     }
+     .logo{
+         color: rgb(229,9,20);
+         fill: currentColor;
+         width: 100px;
+     }
+     .intro {
+         font-size: 32px;
+         width: 84%;
+         margin: auto;
+     }
+     .f1st-p {
+         font-size: 18px;
+         margin: auto;
+     }
+     .mail {
+         padding: 8px;
+         background-color: rgb(0 0 0 / 60%);
+         border-radius: 5px;
+     }
+     ::placeholder {
+         font-size: 15px;
+         color: gray;
+         font-weight: 700;
+     }
+     .head1, .head2, .head3, .head4, .Questions {
+         font-size: 35px;
+     }
+     .h3-1, .h3-2, .h3-3, .h3-4 {
+         font-size: 19px;
+     }
+     .tv {
+         position: relative;
+         z-index: 1;
+     }
+     .gif {
+         position: relative;
+         bottom: 230px;
+         left: 60px;
+     }
+     .download-box {
+         height: 70px;
+         border-radius: 10px;
+         border: 1px solid gray;
+     }
+     .strangerThing {
+         margin-bottom: 0;
+     }
+     .download-box{
+         position: relative;
+         bottom: 70px;
+     }
+     .b-faq {
+         background-color: rgb(73, 73, 73);
+         border: none;
+         height: 70px;
+         width: 100%;
+         margin: 5px auto;
+     }
+     ul li a {
+         color: gray;
+         line-height: 45px;
+         list-style: none;
+         font-size: 14px;
+         
+     }
+}
